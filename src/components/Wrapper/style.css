@@ -1,6 +1,6 @@
 .wrapper {
   padding-top: 50px;
-  background: white;
+  /* background: white; */
   height: 100%;
   display: flex;
   flex-flow: row wrap;
@@ -8,4 +8,7 @@
   justify-content: space-around;
   align-content: flex-start;
   overflow: auto;
+  background-image: url("http://sfwallpaper.com/images/sailor-moon-background-8.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
