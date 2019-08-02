@@ -11,6 +11,8 @@ function Navbar(props) {
       
         <li className="topScore">Top Score:{props.topScore}
       </li>
+
+
     </nav>
   </div>
 

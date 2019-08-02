@@ -7,7 +7,7 @@ function CharacterCard(props) {
       <div className="img-container">
         <img alt={props.name} src={props.image} />
       </div>  
-    <span className="remove" onClick={ () => props.handleRemoval(props.id) }>x</span>
+    <div className="click" value={props.id} onClick={ () => props.handleClick(props.id) }>x</div>
     </div>
   );
 }
