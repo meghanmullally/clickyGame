@@ -6,12 +6,13 @@ function Navbar(props) {
     <div>
       <nav className="navbar navbar-expand-lg navbar-white bg-white">
         {/* <li className="navbar-brand">Clicky Game</li> */}
-      <li className="score">Score:{props.score}
+      <li className="score">Score: {props.score}
       </li>
       
-        <li className="topScore">Top Score:{props.topScore}
+        <li className="topScore">Top Score: {props.topScore}
       </li>
-
+      <li className="rightWrong">{props.rightWrong}
+      </li>
 
     </nav>
   </div>
