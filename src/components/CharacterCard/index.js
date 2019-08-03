@@ -3,9 +3,9 @@ import "./style.css";
 
 function CharacterCard(props) {
   return (
-    <div className="card" value={props.id} onClick={ () => props.handleClick(props.id) }>
+    <div className="card">
       <div className="img-container">
-        <img alt={props.name} src={props.image} />
+        <img className="shuffleScore" alt={props.name} src={props.image} onClick={() => props.shuffleCharacters(props.id)}/>
       </div>  
     </div>
   );
