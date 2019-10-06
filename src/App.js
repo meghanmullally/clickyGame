@@ -67,7 +67,7 @@ if(clicked.includes(id)){
       status={this.state.status}/>
       <Wrapper>
         <h1 className="title">Sailor Moon Clicky Game!</h1>
-        <h4 className="description">Cick on any image to earn a point, but don't click on the same picture more than once. Click all 12 to win!!</h4>
+        <h4 className="description">Click on any image to earn a point, but don't click on the same picture more than once. Click all 12 to win!!</h4>
         {this.state.characters.map(charObj => {
           return <CharacterCard
           id={charObj.id} 
